@@ -1,7 +1,8 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from dao import DAO
 
-from business import printHello
+from business import getAllFilm
+
 """
 Una possibile idea:
 Cluster -> tutti gli elementi nello stesso cluster potrebbero avere gusti simili in termini di film
@@ -14,27 +15,10 @@ stesso cluster hanno visto e recensito positivamente. Di quella lista di film ne
 - ad assegnare una maggiore probabilita' a quelli che hanno attori in comune dei film recensiti dall'utente con più recensioni positive
 """
 
-"""
-Dati di esempio  ovviamente questo contatta il database e da li prende i film che
-hanno determinato genere, attore ecc..
-"""
-books = [
-    {
-        "id": 1,
-        "title": "Harry Potter and the Goblet of Fire",
-        "author": "J.K. Rowling",
-        "isbn": "1512379298"
-    },
-    {
-        "id": 2,
-        "title": "Lord of the Flies",
-        "author": "William Golding",
-        "isbn": "0399501487"
-    }
-]
 
 # Creazione nuova app usando il costruttore
 app = Flask(__name__)
+# Inizzializzo connessione al db
 dao = DAO()
 
 # Utilizzo del decoratore che ci consente di raggiungere l'app
@@ -43,11 +27,19 @@ def index():
     return "Le Iene IA"
 
 # Per creare un REST endpoint uso app.route(path, methods=["GET|POST"])
-@app.route("/consigliati", methods=["GET"])
+@app.route("/consigliati", methods=["POST"])
 def get_consigliati():
-    printHello()
-    print(DAO.select_all_film())
-    return jsonify({"books": books})
+    data = request.get_json() # DTO con utente, recensioni dell'utente
+    # metodo di business che interroga il cluster prende i film da consigliare
+    # metodo di business che sceglie il film
+
+    #ritorniamo il film consigliato
+    return jsonify({"films": getAllFilm(dao)})
+
+@app.route("/ciao", methods=["GET"])
+def get_recensioni():
+    print(DAO.select_recensioni_by_recensore("edrioe@gmail.com"))
+    return "ciao"
 
 if __name__ == "__main__":
     app.run()

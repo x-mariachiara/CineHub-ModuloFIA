@@ -1,5 +1,7 @@
 from flask import Flask
 from flask import render_template
+
+from model import Film
 import psycopg2
 
 class DAO:
@@ -31,5 +33,23 @@ class DAO:
     def select_all_film() -> list:
         s = "SELECT * FROM film"
         DAO.__cursor_instance.execute(s)
-        list_film = DAO.__cursor_instance.fetchall()
+        list_film = []
+        for item in DAO.__cursor_instance.fetchall():
+            list_film.append(Film(item[0], item[6], item[1], item[5], item[3], item[2], item[4], item[7]))
+        
         return list_film
+
+    def select_all_film() -> list:
+        s = "SELECT * FROM film"
+        DAO.__cursor_instance.execute(s)
+        list_film = []
+        for item in DAO.__cursor_instance.fetchall():
+            list_film.append(Film(item[0], item[6], item[1], item[5], item[3], item[2], item[4], item[7]))
+        
+        return list_film
+
+    def select_recensioni_by_recensore(recensore_email: str) -> list:
+        DAO.__cursor_instance.execute("SELECT * FROM recensione where recensore_email = %s", (recensore_email,))
+        list_recensioni = []
+        for item in DAO.__cursor_instance.fetchall():
+            print(item)
