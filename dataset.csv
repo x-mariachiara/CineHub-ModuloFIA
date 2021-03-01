@@ -1,0 +1,301 @@
+time,sesso,età,genere_preferito,periodo_visione,hobby,cosa_fare,preferenza_visione,media_film,media_puntate
+2020/12/03 9:41:42 AM CET,1,16 - 18,Horror,Sera,13,Mi concentro sulla trama,In Compagnia,2,10
+2020/12/03 9:42:04 AM CET,1,26 - 35,Commedia,Pomeriggio,3,Mi concentro sulla trama,In Compagnia,3,9
+2020/12/03 9:42:15 AM CET,0,16 - 18,Avventura,Sera,6,Mangio,Da solo,3,1
+2020/12/03 9:42:51 AM CET,1,16 - 18,Commedia,Pomeriggio,6,Mangio,In Compagnia,2,5
+2020/12/03 9:42:54 AM CET,1,16 - 18,Horror,Sera,13,Mi concentro sulla trama,In Compagnia,2,10
+2020/12/03 9:43:46 AM CET,0,19 - 25,Commedia,Sera,12,Mi concentro sulla trama,In Compagnia,2,1
+2020/12/03 9:43:52 AM CET,1,16 - 18,Avventura,Sera,10,Mi concentro sulla trama,In Compagnia,2,5
+2020/12/03 9:44:05 AM CET,1,16 - 18,Anime,Pomeriggio,11,Mi concentro sulla trama,In Compagnia,4,10
+2020/12/03 9:44:26 AM CET,1,16 - 18,Romantico,Pomeriggio,8,Mi concentro sulla trama,In Compagnia,5,6
+2020/12/03 9:45:59 AM CET,0,16 - 18,Drammatici,Sera,12,Mi concentro sulla trama,In Compagnia,3,8
+2020/12/03 9:50:12 AM CET,0,16 - 18,Avventura,Sera,6,Mangio,Da solo,3,1
+2020/12/03 9:51:34 AM CET,0,19 - 25,Animazione,Sera,14,Mi concentro sulla trama,Da solo,2,3
+2020/12/03 9:53:11 AM CET,0,19 - 25,Thriller,Sera,10,Mi concentro sulla trama,Da solo,1,5
+2020/12/03 9:53:12 AM CET,1,16 - 18,Anime,Sera,0,Mi concentro sulla trama,In Compagnia,3,5
+2020/12/03 9:54:17 AM CET,1,19 - 25,Romantico,Sera,11,Mi concentro sulla trama,In Compagnia,3,8
+2020/12/03 9:55:06 AM CET,0,19 - 25,Anime,Sera,14,Uso il cellulare,In Compagnia,0,9
+2020/12/03 10:01:15 AM CET,0,19 - 25,Azione,Sera,12,Mi concentro sulla trama,Da solo,1,5
+2020/12/03 10:03:28 AM CET,0,19 - 25,Anime,Notte,10,Mangio,In Compagnia,2,4
+2020/12/03 10:04:35 AM CET,1,36 - 50,Musical,Sera,0,Mi concentro sulla trama,In Compagnia,3,1
+2020/12/03 10:06:44 AM CET,1,19 - 25,Romantico,Sera,4,Mi concentro sulla trama,In Compagnia,5,4
+2020/12/03 10:07:43 AM CET,0,19 - 25,Avventura,Notte,10,Mi concentro sulla trama,In Compagnia,3,4
+2020/12/03 10:08:11 AM CET,0,19 - 25,Animazione,Sera,13,Mi concentro sulla trama,In Compagnia,0,3
+2020/12/03 10:10:31 AM CET,1,19 - 25,Animazione,Sera,10,Mi concentro sulla trama,In Compagnia,1,5
+2020/12/03 10:11:51 AM CET,1,26 - 35,Thriller,Sera,14,Mi concentro sulla trama,In Compagnia,2,2
+2020/12/03 10:12:35 AM CET,1,19 - 25,Avventura,Sera,11,Mi concentro sulla trama,In Compagnia,3,4
+2020/12/03 10:12:41 AM CET,1,19 - 25,Musical,Sera,14,Mi concentro sulla trama,In Compagnia,4,7
+2020/12/03 10:17:24 AM CET,1,19 - 25,Fantasy,Sera,11,Mangio,Da solo,2,10
+2020/12/03 10:17:34 AM CET,0,19 - 25,Avventura,Sera,13,Mi concentro sulla trama,Da solo,2,2
+2020/12/03 10:18:12 AM CET,1,36 - 50,Azione,Sera,4,Mi concentro sulla trama,In Compagnia,7,10
+2020/12/03 10:18:34 AM CET,1,19 - 25,Giallo,Notte,11,Mi concentro sulla trama,In Compagnia,3,2
+2020/12/03 10:19:13 AM CET,0,19 - 25,Avventura,Sera,8,Mi interesso alla fotografia,Da solo,3,2
+2020/12/03 10:21:05 AM CET,0,19 - 25,Horror,Notte,10,Mi concentro sulla trama,In Compagnia,2,1
+2020/12/03 10:22:16 AM CET,1,19 - 25,Romantico,Sera,14,Mi concentro sulla trama,In Compagnia,3,7
+2020/12/03 10:22:55 AM CET,2,10 - 15,Romantico,Pomeriggio,0,Uso il cellulare,In Compagnia,7,2
+2020/12/03 10:23:27 AM CET,1,19 - 25,Fantasy,Pomeriggio,14,Mi concentro sulla trama,In Compagnia,10,8
+2020/12/03 10:23:48 AM CET,1,19 - 25,Drammatici,Sera,13,Mi concentro sulla trama,In Compagnia,1,0
+2020/12/03 10:27:05 AM CET,0,10 - 15,Azione,Sera,12,Mi concentro sulla trama,In Compagnia,9,9
+2020/12/03 10:27:29 AM CET,1,10 - 15,Commedia,Sera,11,Mi concentro sulla trama,In Compagnia,2,5
+2020/12/03 10:27:49 AM CET,0,10 - 15,Azione,Sera,6,Mangio,In Compagnia,3,8
+2020/12/03 10:28:54 AM CET,1,19 - 25,Commedia,Sera,14,Mi concentro sulla trama,In Compagnia,3,3
+2020/12/03 10:29:42 AM CET,1,19 - 25,Romantico,Sera,1,Mi concentro sulla trama,In Compagnia,3,6
+2020/12/03 10:31:33 AM CET,0,10 - 15,Horror,Sera,12,Mangio,In Compagnia,3,1
+2020/12/03 10:32:09 AM CET,1,10 - 15,Avventura,Pomeriggio,10,Uso il cellulare,Da solo,0,0
+2020/12/03 10:32:26 AM CET,1,26 - 35,Commedia,Pomeriggio,0,Mi concentro sulla trama,In Compagnia,5,8
+2020/12/03 10:33:32 AM CET,1,19 - 25,Romantico,Pomeriggio,4,Uso il cellulare,In Compagnia,2,1
+2020/12/03 10:33:39 AM CET,1,19 - 25,Romantico,Pomeriggio,4,Uso il cellulare,In Compagnia,2,1
+2020/12/03 10:34:58 AM CET,1,10 - 15,Azione,Pomeriggio,2,Mi concentro sulla trama,In Compagnia,1,7
+2020/12/03 10:37:13 AM CET,1,19 - 25,Thriller,Sera,8,Mi concentro sulla trama,In Compagnia,6,6
+2020/12/03 10:38:21 AM CET,0,10 - 15,Animazione,Sera,12,Mangio,In Compagnia,3,10
+2020/12/03 10:39:08 AM CET,2,10 - 15,Horror,Sera,0,Mangio,In Compagnia,6,4
+2020/12/03 10:39:38 AM CET,1,50+,Documentario,Sera,9,Mi concentro sulla trama,Da solo,4,2
+2020/12/03 10:40:24 AM CET,0,36 - 50,Commedia,Sera,12,Uso il cellulare,Da solo,1,7
+2020/12/03 10:40:48 AM CET,0,19 - 25,Anime,Sera,12,Mi concentro sulla trama,In Compagnia,3,2
+2020/12/03 10:41:55 AM CET,0,10 - 15,Azione,Sera,9,Mangio,In Compagnia,10,10
+2020/12/03 10:42:36 AM CET,0,26 - 35,Animazione,Notte,12,Mi concentro sulla trama,Da solo,5,4
+2020/12/03 10:42:47 AM CET,2,10 - 15,Avventura,Sera,0,Mi concentro sulla trama,In Compagnia,5,0
+2020/12/03 10:44:16 AM CET,0,19 - 25,Azione,Sera,10,Mi interesso alla fotografia,In Compagnia,1,3
+2020/12/03 10:45:30 AM CET,0,50+,Fantascienza,Notte,14,Mi concentro sulla trama,In Compagnia,6,6
+2020/12/03 10:45:46 AM CET,0,10 - 15,Avventura,Sera,10,Mangio,In Compagnia,5,5
+2020/12/03 10:48:23 AM CET,0,10 - 15,Avventura,Pomeriggio,10,Mangio,In Compagnia,1,3
+2020/12/03 10:48:29 AM CET,1,16 - 18,Fantascienza,Sera,14,Mi concentro sulla trama,Da solo,1,5
+2020/12/03 10:48:36 AM CET,0,10 - 15,Horror,Notte,4,Mangio,In Compagnia,6,10
+2020/12/03 10:48:39 AM CET,1,16 - 18,Fantascienza,Sera,14,Mi concentro sulla trama,Da solo,1,5
+2020/12/03 10:49:24 AM CET,1,10 - 15,Romantico,Sera,11,Mangio,In Compagnia,7,10
+2020/12/03 10:51:32 AM CET,0,16 - 18,Azione,Sera,12,Mi concentro sulla trama,Da solo,6,4
+2020/12/03 10:51:43 AM CET,1,10 - 15,Fantasy,Pomeriggio,2,Mi concentro sulla trama,Da solo,10,10
+2020/12/03 10:52:54 AM CET,1,10 - 15,Drammatici,Sera,14,Mangio,Da solo,3,7
+2020/12/03 10:53:02 AM CET,2,10 - 15,Azione,Notte,10,Mangio,In Compagnia,4,10
+2020/12/03 10:53:12 AM CET,1,36 - 50,Romantico,Sera,4,Mi concentro sulla trama,In Compagnia,3,0
+2020/12/03 10:53:22 AM CET,0,16 - 18,Azione,Sera,10,Mi concentro sulla trama,Da solo,2,5
+2020/12/03 10:53:25 AM CET,0,16 - 18,Commedia,Sera,12,Mi concentro sulla trama,In Compagnia,1,1
+2020/12/03 10:53:36 AM CET,0,16 - 18,Fantasy,Pomeriggio,4,Mi concentro sulla trama,Da solo,3,4
+2020/12/03 10:53:43 AM CET,2,19 - 25,Anime,Sera,10,Mi concentro sulla trama,Da solo,1,10
+2020/12/03 10:54:00 AM CET,1,16 - 18,Azione,Pomeriggio,8,Mi concentro sulla trama,In Compagnia,3,2
+2020/12/03 10:54:21 AM CET,0,16 - 18,Anime,Notte,10,Mi concentro sulla trama,Da solo,1,8
+2020/12/03 10:54:24 AM CET,0,16 - 18,Commedia,Sera,10,Mi concentro sulla trama,In Compagnia,3,3
+2020/12/03 10:54:30 AM CET,1,10 - 15,Fantascienza,Notte,0,Mi concentro sulla trama,Da solo,4,10
+2020/12/03 10:54:36 AM CET,1,16 - 18,Drammatici,Sera,4,Mi concentro sulla trama,In Compagnia,3,5
+2020/12/03 10:55:03 AM CET,1,16 - 18,Avventura,Sera,14,Mangio,In Compagnia,5,2
+2020/12/03 10:55:47 AM CET,0,16 - 18,Commedia,Sera,10,Mi concentro sulla trama,Da solo,6,5
+2020/12/03 10:56:00 AM CET,1,16 - 18,Fantasy,Sera,2,Mi concentro sulla trama,In Compagnia,5,6
+2020/12/03 10:56:12 AM CET,0,19 - 25,Azione,Sera,13,Mangio,In Compagnia,8,8
+2020/12/03 10:56:24 AM CET,0,19 - 25,Horror,Notte,11,Mi concentro sulla trama,Da solo,2,8
+2020/12/03 10:56:42 AM CET,1,10 - 15,Avventura,Sera,12,Mangio,Da solo,5,3
+2020/12/03 10:57:16 AM CET,2,10 - 15,Avventura,Sera,12,Mi concentro sulla trama,In Compagnia,5,7
+2020/12/03 10:57:36 AM CET,1,10 - 15,Avventura,Sera,12,Mangio,Da solo,5,3
+2020/12/03 10:58:09 AM CET,0,16 - 18,Horror,Pomeriggio,12,Uso il cellulare,In Compagnia,3,8
+2020/12/03 10:58:25 AM CET,0,16 - 18,Anime,Sera,10,Mi concentro sulla trama,In Compagnia,3,10
+2020/12/03 10:58:40 AM CET,1,26 - 35,Romantico,Sera,4,Mi concentro sulla trama,In Compagnia,3,2
+2020/12/03 10:58:45 AM CET,1,10 - 15,Romantico,Notte,12,Mi concentro sulla trama,In Compagnia,2,1
+2020/12/03 10:59:12 AM CET,0,10 - 15,Poliziesco,Notte,12,Uso il cellulare,In Compagnia,4,3
+2020/12/03 11:00:10 AM CET,1,10 - 15,Fantascienza,Mattina,0,Mi concentro sulla trama,Da solo,2,2
+2020/12/03 11:00:24 AM CET,1,10 - 15,Horror,Pomeriggio,0,Uso il cellulare,In Compagnia,3,3
+2020/12/03 11:00:57 AM CET,1,19 - 25,Romantico,Sera,14,Mi concentro sulla trama,Da solo,1,10
+2020/12/03 11:01:02 AM CET,0,16 - 18,Sportivo,Notte,8,Mi concentro sulla trama,Da solo,2,2
+2020/12/03 11:01:04 AM CET,0,10 - 15,Sportivo,Sera,12,Mangio,In Compagnia,6,3
+2020/12/03 11:01:58 AM CET,1,36 - 50,Commedia,Sera,14,Mi concentro sulla trama,In Compagnia,3,3
+2020/12/03 11:02:58 AM CET,1,16 - 18,Avventura,Pomeriggio,6,Mangio,Da solo,2,3
+2020/12/03 11:03:24 AM CET,1,19 - 25,Romantico,Sera,14,Mangio,In Compagnia,4,5
+2020/12/03 11:03:30 AM CET,0,16 - 18,Fantascienza,Sera,10,Mi interesso alla regia,Da solo,1,3
+2020/12/03 11:04:05 AM CET,1,36 - 50,Commedia,Sera,11,Mi concentro sulla trama,In Compagnia,3,0
+2020/12/03 11:05:32 AM CET,0,16 - 18,Horror,Pomeriggio,12,Mangio,Da solo,8,10
+2020/12/03 11:05:39 AM CET,1,26 - 35,Horror,Sera,10,Uso il cellulare,Da solo,3,7
+2020/12/03 11:09:24 AM CET,1,16 - 18,Romantico,Sera,14,Mi concentro sulla trama,Da solo,1,2
+2020/12/03 11:12:07 AM CET,1,16 - 18,Romantico,Pomeriggio,12,Mangio,Da solo,3,10
+2020/12/03 11:15:17 AM CET,1,16 - 18,Romantico,Sera,14,Mi concentro sulla trama,Da solo,0,0
+2020/12/03 11:19:30 AM CET,0,10 - 15,Horror,Sera,10,Mi concentro sulla trama,Da solo,6,4
+2020/12/03 11:21:17 AM CET,0,50+,Documentario,Sera,12,Mi concentro sulla trama,In Compagnia,3,0
+2020/12/03 11:24:49 AM CET,0,10 - 15,Azione,Sera,13,Mangio,In Compagnia,7,5
+2020/12/03 11:26:23 AM CET,1,10 - 15,Fantasy,Sera,14,Mangio,In Compagnia,2,1
+2020/12/03 11:28:10 AM CET,1,10 - 15,Fantascienza,Sera,0,Mi concentro sulla trama,In Compagnia,10,5
+2020/12/03 11:30:14 AM CET,1,50+,Poliziesco,Sera,11,Mangio,In Compagnia,2,0
+2020/12/03 11:38:19 AM CET,1,36 - 50,Commedia,Sera,4,Mi interesso alla fotografia,In Compagnia,6,2
+2020/12/03 11:38:40 AM CET,1,16 - 18,Horror,Sera,14,Mangio,In Compagnia,4,6
+2020/12/03 11:41:43 AM CET,0,10 - 15,Avventura,Sera,13,Uso il cellulare,In Compagnia,1,7
+2020/12/03 11:41:48 AM CET,1,16 - 18,Fantascienza,Sera,14,Mi concentro sulla trama,Da solo,1,5
+2020/12/03 11:44:18 AM CET,0,36 - 50,Azione,Sera,3,Mi concentro sulla trama,In Compagnia,4,5
+2020/12/03 11:49:33 AM CET,1,10 - 15,Horror,Pomeriggio,12,Mi concentro sulla trama,In Compagnia,5,10
+2020/12/03 11:52:21 AM CET,1,10 - 15,Commedia,Sera,0,Mangio,Da solo,1,8
+2020/12/03 11:55:45 AM CET,1,19 - 25,Romantico,Sera,11,Mi concentro sulla trama,In Compagnia,2,4
+2020/12/03 11:58:48 AM CET,1,10 - 15,Giallo,Pomeriggio,11,Mi concentro sulla trama,Da solo,1,6
+2020/12/03 12:01:17 PM CET,0,50+,Azione,Sera,9,Mi concentro sulla trama,Da solo,5,7
+2020/12/03 12:02:07 PM CET,1,50+,Thriller,Sera,5,Mi concentro sulla trama,Da solo,7,7
+2020/12/03 12:03:21 PM CET,1,16 - 18,Poliziesco,Sera,12,Mi concentro sulla trama,Da solo,3,4
+2020/12/03 12:05:57 PM CET,2,10 - 15,Avventura,Sera,12,Mi concentro sulla trama,In Compagnia,5,7
+2020/12/03 12:07:27 PM CET,1,50+,Fantasy,Sera,0,Mi concentro sulla trama,Da solo,7,1
+2020/12/03 12:11:52 PM CET,1,36 - 50,Poliziesco,Sera,14,Mi concentro sulla trama,Da solo,6,1
+2020/12/03 12:13:04 PM CET,0,50+,Commedia,Sera,14,Mi concentro sulla trama,In Compagnia,9,7
+2020/12/03 12:15:21 PM CET,0,50+,Giallo,Sera,9,Mi concentro sulla trama,In Compagnia,3,1
+2020/12/03 12:15:43 PM CET,1,50+,Giallo,Sera,4,Mi concentro sulla trama,Da solo,4,3
+2020/12/03 12:17:14 PM CET,1,50+,Commedia,Sera,14,Mangio,Da solo,5,2
+2020/12/03 12:17:56 PM CET,0,16 - 18,Thriller,Sera,2,Mi interesso alla fotografia,In Compagnia,4,8
+2020/12/03 12:19:27 PM CET,1,16 - 18,Drammatici,Sera,11,Mi interesso alla fotografia,Da solo,1,3
+2020/12/03 12:21:52 PM CET,0,50+,Thriller,Sera,11,Mi concentro sulla trama,Da solo,4,0
+2020/12/03 12:25:10 PM CET,0,16 - 18,Avventura,Sera,6,Mangio,Da solo,3,1
+2020/12/03 12:26:16 PM CET,1,19 - 25,Fantasy,Sera,11,Mangio,Da solo,2,10
+2020/12/03 12:26:44 PM CET,0,50+,Thriller,Sera,11,Mi concentro sulla trama,Da solo,4,3
+2020/12/03 12:28:06 PM CET,0,50+,Azione,Sera,4,Mi concentro sulla trama,In Compagnia,3,1
+2020/12/03 12:39:15 PM CET,1,36 - 50,Commedia,Pomeriggio,11,Mi concentro sulla trama,In Compagnia,6,6
+2020/12/03 12:46:08 PM CET,0,10 - 15,Azione,Notte,12,Mangio,In Compagnia,5,8
+2020/12/03 12:46:44 PM CET,1,36 - 50,Giallo,Sera,11,Mi concentro sulla trama,In Compagnia,3,4
+2020/12/03 12:46:45 PM CET,1,19 - 25,Romantico,Sera,14,Mi concentro sulla trama,Da solo,5,1
+2020/12/03 12:46:56 PM CET,0,26 - 35,Horror,Sera,10,Mangio,In Compagnia,7,7
+2020/12/03 12:47:59 PM CET,2,0 - 9,Erotico,Mattina,7,Mi interesso alla fotografia,Da solo,7,2
+2020/12/03 12:51:07 PM CET,1,19 - 25,Giallo,Pomeriggio,4,Uso il cellulare,In Compagnia,2,3
+2020/12/03 12:53:27 PM CET,1,36 - 50,Drammatici,Sera,4,Mi concentro sulla trama,Da solo,6,4
+2020/12/03 12:53:54 PM CET,0,19 - 25,Azione,Sera,10,Mi concentro sulla trama,In Compagnia,1,5
+2020/12/03 12:54:23 PM CET,1,36 - 50,Drammatici,Sera,4,Mi concentro sulla trama,Da solo,5,3
+2020/12/03 12:55:37 PM CET,0,50+,Commedia,Sera,14,Mi concentro sulla trama,In Compagnia,3,1
+2020/12/03 1:05:38 PM CET,1,16 - 18,Drammatici,Sera,11,Mi concentro sulla trama,In Compagnia,5,1
+2020/12/03 1:08:12 PM CET,0,19 - 25,Azione,Sera,4,Mi concentro sulla trama,In Compagnia,3,4
+2020/12/03 1:10:12 PM CET,1,50+,Romantico,Pomeriggio,9,Mi concentro sulla trama,Da solo,1,5
+2020/12/03 1:12:44 PM CET,0,50+,Biografico,Sera,11,Mi concentro sulla trama,Da solo,3,3
+2020/12/03 1:16:31 PM CET,0,16 - 18,Anime,Sera,10,Mi concentro sulla trama,Da solo,3,3
+2020/12/03 1:18:09 PM CET,0,50+,Biografico,Sera,14,Mi interesso alla fotografia,Da solo,3,3
+2020/12/03 1:19:32 PM CET,1,36 - 50,Commedia,Sera,1,Mi concentro sulla trama,In Compagnia,7,5
+2020/12/03 1:23:24 PM CET,1,16 - 18,Animazione,Sera,6,Mangio,In Compagnia,2,8
+2020/12/03 1:27:48 PM CET,1,16 - 18,Animazione,Sera,11,Mi interesso alla regia,Da solo,0,2
+2020/12/03 1:33:53 PM CET,1,36 - 50,Commedia,Sera,4,Mi concentro sulla trama,In Compagnia,2,6
+2020/12/03 1:36:36 PM CET,1,50+,Giallo,Sera,11,Mi concentro sulla trama,In Compagnia,5,7
+2020/12/03 1:38:08 PM CET,1,26 - 35,Biografico,Sera,4,Mi concentro sulla trama,In Compagnia,6,2
+2020/12/03 1:38:15 PM CET,0,50+,Western,Sera,12,Mi concentro sulla trama,In Compagnia,3,6
+2020/12/03 1:38:22 PM CET,1,26 - 35,Biografico,Sera,4,Mi concentro sulla trama,In Compagnia,6,2
+2020/12/03 1:41:03 PM CET,0,50+,Azione,Notte,11,Mi concentro sulla trama,Da solo,2,1
+2020/12/03 1:41:40 PM CET,1,50+,Commedia,Sera,14,Mangio,In Compagnia,3,1
+2020/12/03 1:42:20 PM CET,1,10 - 15,Thriller,Sera,12,Mi concentro sulla trama,Da solo,2,1
+2020/12/03 1:48:13 PM CET,0,16 - 18,Fantascienza,Sera,10,Mi interesso alla regia,Da solo,1,3
+2020/12/03 1:50:09 PM CET,0,16 - 18,Azione,Sera,10,Mi concentro sulla trama,Da solo,2,5
+2020/12/03 1:53:26 PM CET,0,36 - 50,Azione,Sera,14,Mi concentro sulla trama,Da solo,4,2
+2020/12/03 1:54:13 PM CET,0,16 - 18,Poliziesco,Notte,12,Uso il cellulare,Da solo,3,5
+2020/12/03 1:55:22 PM CET,0,19 - 25,Commedia,Sera,10,Mangio,In Compagnia,3,4
+2020/12/03 2:05:42 PM CET,0,10 - 15,Horror,Sera,12,Mangio,In Compagnia,3,1
+2020/12/03 2:10:44 PM CET,1,16 - 18,Romantico,Sera,14,Mi concentro sulla trama,Da solo,1,2
+2020/12/03 2:11:05 PM CET,0,36 - 50,Azione,Sera,12,Mi concentro sulla trama,In Compagnia,3,3
+2020/12/03 2:13:17 PM CET,0,36 - 50,Animazione,Notte,12,Mangio,In Compagnia,3,0
+2020/12/03 2:15:13 PM CET,1,10 - 15,Avventura,Sera,2,Uso il cellulare,Da solo,4,2
+2020/12/03 2:15:19 PM CET,0,16 - 18,Fantascienza,Sera,2,Mangio,Da solo,3,0
+2020/12/03 2:21:10 PM CET,1,36 - 50,Commedia,Sera,4,Mi concentro sulla trama,In Compagnia,2,0
+2020/12/03 2:28:22 PM CET,1,36 - 50,Poliziesco,Sera,11,Mi concentro sulla trama,Da solo,5,5
+2020/12/03 2:32:40 PM CET,1,19 - 25,Thriller,Sera,12,Mi concentro sulla trama,Da solo,2,5
+2020/12/03 2:42:24 PM CET,1,36 - 50,Giallo,Sera,1,Mi concentro sulla trama,Da solo,3,3
+2020/12/03 2:55:24 PM CET,0,10 - 15,Avventura,Sera,10,Mangio,In Compagnia,5,5
+2020/12/03 3:02:19 PM CET,1,36 - 50,Romantico,Sera,4,Mi concentro sulla trama,Da solo,4,2
+2020/12/03 3:22:55 PM CET,0,19 - 25,Documentario,Notte,1,Mi interesso alla fotografia,In Compagnia,0,1
+2020/12/03 3:47:52 PM CET,1,36 - 50,Romantico,Sera,1,Mi concentro sulla trama,Da solo,2,1
+2020/12/03 3:49:06 PM CET,1,36 - 50,Romantico,Sera,1,Mi concentro sulla trama,Da solo,2,1
+2020/12/03 4:00:24 PM CET,1,50+,Documentario,Pomeriggio,9,Mi concentro sulla trama,Da solo,2,2
+2020/12/03 4:31:23 PM CET,1,50+,Poliziesco,Sera,6,Mi concentro sulla trama,In Compagnia,4,2
+2020/12/03 4:57:08 PM CET,1,19 - 25,Romantico,Sera,14,Mangio,In Compagnia,4,5
+2020/12/03 5:28:10 PM CET,2,10 - 15,Avventura,Pomeriggio,12,Mi interesso alla regia,In Compagnia,4,10
+2020/12/03 6:06:08 PM CET,0,26 - 35,Azione,Notte,9,Mi concentro sulla trama,Da solo,1,0
+2020/12/03 6:07:15 PM CET,1,36 - 50,Commedia,Sera,1,Mi concentro sulla trama,In Compagnia,7,5
+2020/12/03 6:09:51 PM CET,0,16 - 18,Thriller,Sera,2,Mi interesso alla fotografia,In Compagnia,4,8
+2020/12/03 6:14:27 PM CET,1,26 - 35,Commedia,Sera,12,Mi concentro sulla trama,In Compagnia,6,3
+2020/12/03 6:18:36 PM CET,0,26 - 35,Azione,Sera,9,Mi concentro sulla trama,Da solo,2,2
+2020/12/03 7:00:00 PM CET,1,36 - 50,Romantico,Pomeriggio,4,Mangio,In Compagnia,3,5
+2020/12/03 8:03:59 PM CET,1,19 - 25,Fantasy,Notte,0,Mi concentro sulla trama,Da solo,1,10
+2020/12/03 8:50:54 PM CET,0,50+,Fantascienza,Sera,8,Mi interesso alla fotografia,In Compagnia,4,9
+2020/12/03 9:03:00 PM CET,1,36 - 50,Musical,Sera,3,Mi concentro sulla trama,Da solo,7,10
+2020/12/03 9:08:07 PM CET,1,36 - 50,Thriller,Sera,2,Mi concentro sulla trama,In Compagnia,5,3
+2020/12/03 9:08:47 PM CET,1,26 - 35,Commedia,Sera,8,Mi concentro sulla trama,Da solo,2,4
+2020/12/03 9:09:24 PM CET,1,26 - 35,Poliziesco,Pomeriggio,11,Mi concentro sulla trama,Da solo,2,5
+2020/12/03 9:18:08 PM CET,1,36 - 50,Romantico,Sera,9,Mi concentro sulla trama,In Compagnia,3,0
+2020/12/03 9:19:24 PM CET,0,26 - 35,Documentario,Sera,14,Uso il cellulare,Da solo,1,1
+2020/12/03 9:22:52 PM CET,1,10 - 15,Musical,Pomeriggio,0,Ascolto la colonna sonora,In Compagnia,10,10
+2020/12/03 9:45:00 PM CET,1,19 - 25,Romantico,Sera,3,Uso il cellulare,Da solo,1,0
+2020/12/03 9:55:12 PM CET,0,26 - 35,Azione,Sera,12,Mi concentro sulla trama,Da solo,2,0
+2020/12/03 9:55:36 PM CET,0,19 - 25,Avventura,Pomeriggio,10,Mi interesso alla regia,Da solo,3,5
+2020/12/03 9:59:27 PM CET,0,19 - 25,Biografico,Sera,4,Mi concentro sulla trama,Da solo,2,0
+2020/12/03 10:01:04 PM CET,1,19 - 25,Biografico,Sera,11,Mangio,In Compagnia,4,3
+2020/12/03 10:01:29 PM CET,1,19 - 25,Romantico,Sera,1,Mi concentro sulla trama,Da solo,0,0
+2020/12/03 10:07:56 PM CET,1,50+,Drammatici,Sera,4,Mi concentro sulla trama,In Compagnia,1,4
+2020/12/03 10:21:23 PM CET,0,50+,Commedia,Sera,14,Mi concentro sulla trama,In Compagnia,3,1
+2020/12/03 10:26:55 PM CET,0,19 - 25,Fantasy,Sera,4,Mi concentro sulla trama,Da solo,2,4
+2020/12/03 10:27:05 PM CET,0,19 - 25,Drammatici,Sera,6,Mi concentro sulla trama,Da solo,4,2
+2020/12/03 10:29:02 PM CET,0,19 - 25,Animazione,Sera,11,Mi concentro sulla trama,In Compagnia,8,6
+2020/12/03 10:29:09 PM CET,0,19 - 25,Azione,Sera,12,Mi concentro sulla trama,Da solo,1,1
+2020/12/03 10:31:16 PM CET,0,26 - 35,Fantasy,Sera,10,Mi concentro sulla trama,Da solo,4,3
+2020/12/03 10:35:17 PM CET,0,19 - 25,Fantascienza,Sera,10,Mi concentro sulla trama,In Compagnia,4,2
+2020/12/03 10:56:02 PM CET,1,19 - 25,Romantico,Sera,4,Uso il cellulare,In Compagnia,2,1
+2020/12/04 5:06:05 AM CET,0,36 - 50,Avventura,Sera,12,Mi concentro sulla trama,In Compagnia,2,2
+2020/12/04 11:09:50 AM CET,1,10 - 15,Thriller,Notte,0,Mi concentro sulla trama,Da solo,5,1
+2020/12/04 11:50:47 AM CET,1,36 - 50,Commedia,Sera,14,Mi concentro sulla trama,In Compagnia,6,3
+2020/12/04 12:37:11 PM CET,2,19 - 25,Anime,Mattina,9,Mi interesso alla regia,In Compagnia,10,2
+2020/12/04 12:53:53 PM CET,1,26 - 35,Horror,Sera,10,Uso il cellulare,Da solo,3,7
+2020/12/04 2:23:14 PM CET,0,50+,Commedia,Sera,9,Mi concentro sulla trama,Da solo,6,1
+2020/12/04 2:37:09 PM CET,1,19 - 25,Fantasy,Sera,11,Mangio,In Compagnia,2,3
+2020/12/04 3:27:31 PM CET,1,36 - 50,Romantico,Sera,9,Mi concentro sulla trama,In Compagnia,3,0
+2020/12/04 4:25:37 PM CET,0,19 - 25,Anime,Sera,10,Mi concentro sulla trama,In Compagnia,4,4
+2020/12/04 4:27:38 PM CET,0,19 - 25,Drammatici,Notte,8,Mi interesso alla regia,In Compagnia,7,0
+2020/12/04 4:28:20 PM CET,0,19 - 25,Thriller,Sera,12,Mi interesso alla regia,In Compagnia,3,10
+2020/12/04 4:28:45 PM CET,0,19 - 25,Azione,Pomeriggio,12,Mi concentro sulla trama,In Compagnia,2,10
+2020/12/04 4:28:59 PM CET,0,19 - 25,Avventura,Sera,13,Mi concentro sulla trama,Da solo,3,10
+2020/12/04 4:30:30 PM CET,0,19 - 25,Azione,Sera,10,Mi concentro sulla trama,In Compagnia,5,2
+2020/12/04 4:33:30 PM CET,0,19 - 25,Azione,Notte,10,Mi concentro sulla trama,In Compagnia,1,5
+2020/12/04 4:34:01 PM CET,1,19 - 25,Fantascienza,Sera,4,Mi concentro sulla trama,In Compagnia,2,6
+2020/12/04 4:38:30 PM CET,0,19 - 25,Anime,Notte,10,Mi concentro sulla trama,Da solo,0,5
+2020/12/04 4:39:02 PM CET,0,19 - 25,Anime,Notte,10,Mi concentro sulla trama,Da solo,3,10
+2020/12/04 4:41:22 PM CET,0,19 - 25,Anime,Sera,10,Mi concentro sulla trama,Da solo,2,10
+2020/12/04 4:43:05 PM CET,0,19 - 25,Documentario,Notte,12,Mi concentro sulla trama,Da solo,3,6
+2020/12/04 4:44:38 PM CET,0,19 - 25,Anime,Sera,12,Mangio,Da solo,3,7
+2020/12/04 4:45:40 PM CET,1,19 - 25,Commedia,Sera,11,Mi concentro sulla trama,Da solo,1,0
+2020/12/04 5:02:18 PM CET,1,19 - 25,Horror,Notte,12,Mangio,In Compagnia,5,3
+2020/12/04 5:02:51 PM CET,1,16 - 18,Commedia,Sera,11,Mi concentro sulla trama,Da solo,2,2
+2020/12/04 5:05:29 PM CET,0,19 - 25,Anime,Sera,10,Mi concentro sulla trama,Da solo,1,2
+2020/12/04 5:06:04 PM CET,0,19 - 25,Erotico,Sera,2,Mi interesso alla fotografia,Da solo,2,6
+2020/12/04 5:06:38 PM CET,1,19 - 25,Romantico,Notte,14,Mi concentro sulla trama,In Compagnia,1,10
+2020/12/04 5:06:55 PM CET,0,16 - 18,Azione,Sera,12,Mi concentro sulla trama,Da solo,1,0
+2020/12/04 5:06:58 PM CET,0,16 - 18,Avventura,Pomeriggio,12,Mi concentro sulla trama,In Compagnia,0,2
+2020/12/04 5:07:08 PM CET,1,19 - 25,Commedia,Sera,8,Mi concentro sulla trama,In Compagnia,2,5
+2020/12/04 5:07:29 PM CET,1,19 - 25,Avventura,Pomeriggio,14,Mi concentro sulla trama,Da solo,1,10
+2020/12/04 5:07:32 PM CET,1,19 - 25,Commedia,Sera,2,Uso il cellulare,In Compagnia,1,2
+2020/12/04 5:08:08 PM CET,1,19 - 25,Romantico,Sera,11,Mangio,Da solo,5,6
+2020/12/04 5:08:41 PM CET,1,19 - 25,Avventura,Sera,0,Mi concentro sulla trama,In Compagnia,7,6
+2020/12/04 5:08:58 PM CET,1,19 - 25,Giallo,Sera,12,Mi concentro sulla trama,Da solo,3,7
+2020/12/04 5:09:03 PM CET,1,16 - 18,Horror,Sera,0,Mi concentro sulla trama,In Compagnia,3,4
+2020/12/04 5:09:47 PM CET,1,19 - 25,Commedia,Sera,0,Mi concentro sulla trama,In Compagnia,4,3
+2020/12/04 5:09:56 PM CET,0,19 - 25,Thriller,Notte,10,Mi concentro sulla trama,Da solo,10,6
+2020/12/04 5:10:16 PM CET,1,19 - 25,Fantascienza,Sera,4,Mi concentro sulla trama,Da solo,2,4
+2020/12/04 5:11:06 PM CET,1,19 - 25,Drammatici,Sera,14,Mi concentro sulla trama,In Compagnia,1,3
+2020/12/04 5:12:01 PM CET,1,19 - 25,Commedia,Sera,0,Mi concentro sulla trama,In Compagnia,4,3
+2020/12/04 5:13:04 PM CET,0,19 - 25,Commedia,Notte,14,Mi concentro sulla trama,Da solo,4,3
+2020/12/04 5:14:44 PM CET,2,19 - 25,Romantico,Sera,14,Mi concentro sulla trama,In Compagnia,3,8
+2020/12/04 5:15:00 PM CET,0,19 - 25,Thriller,Sera,12,Mi concentro sulla trama,Da solo,1,5
+2020/12/04 5:17:12 PM CET,1,19 - 25,Azione,Sera,4,Mi interesso alla regia,Da solo,1,6
+2020/12/04 5:17:35 PM CET,1,19 - 25,Giallo,Sera,0,Mi concentro sulla trama,Da solo,1,1
+2020/12/04 5:19:27 PM CET,0,16 - 18,Anime,Notte,10,Mi concentro sulla trama,Da solo,0,10
+2020/12/04 5:19:56 PM CET,1,19 - 25,Horror,Sera,4,Mi concentro sulla trama,Da solo,5,5
+2020/12/04 5:22:28 PM CET,1,19 - 25,Azione,Notte,14,Mi concentro sulla trama,Da solo,2,7
+2020/12/04 5:22:52 PM CET,2,19 - 25,Horror,Sera,11,Mi concentro sulla trama,Da solo,3,10
+2020/12/04 5:25:21 PM CET,1,19 - 25,Azione,Sera,14,Mi concentro sulla trama,Da solo,8,10
+2020/12/04 5:25:40 PM CET,1,19 - 25,Commedia,Sera,4,Uso il cellulare,In Compagnia,3,6
+2020/12/04 5:25:46 PM CET,1,19 - 25,Azione,Sera,4,Uso il cellulare,In Compagnia,1,7
+2020/12/04 5:25:57 PM CET,0,16 - 18,Avventura,Pomeriggio,12,Mi concentro sulla trama,In Compagnia,0,2
+2020/12/04 5:39:24 PM CET,0,19 - 25,Azione,Pomeriggio,12,Mi concentro sulla trama,In Compagnia,2,10
+2020/12/04 5:41:32 PM CET,0,19 - 25,Fantascienza,Notte,10,Mangio,Da solo,3,7
+2020/12/04 5:45:29 PM CET,0,16 - 18,Azione,Sera,14,Mi concentro sulla trama,In Compagnia,8,5
+2020/12/04 5:46:04 PM CET,1,16 - 18,Giallo,Pomeriggio,14,Mi concentro sulla trama,Da solo,2,10
+2020/12/04 5:47:02 PM CET,1,19 - 25,Poliziesco,Notte,12,Mi concentro sulla trama,Da solo,5,8
+2020/12/04 5:50:29 PM CET,1,16 - 18,Romantico,Sera,14,Mi concentro sulla trama,Da solo,4,10
+2020/12/04 5:51:18 PM CET,0,19 - 25,Azione,Sera,12,Mi concentro sulla trama,In Compagnia,7,2
+2020/12/04 5:53:34 PM CET,1,19 - 25,Romantico,Sera,8,Mi concentro sulla trama,In Compagnia,3,1
+2020/12/04 5:57:28 PM CET,1,16 - 18,Poliziesco,Notte,8,Mi concentro sulla trama,Da solo,2,2
+2020/12/04 5:59:09 PM CET,1,19 - 25,Drammatici,Notte,11,Mi concentro sulla trama,Da solo,2,1
+2020/12/04 6:10:48 PM CET,1,19 - 25,Drammatici,Sera,6,Mi concentro sulla trama,Da solo,4,4
+2020/12/04 6:14:30 PM CET,0,19 - 25,Fantascienza,Notte,10,Mi concentro sulla trama,In Compagnia,4,10
+2020/12/04 6:15:29 PM CET,1,19 - 25,Poliziesco,Notte,12,Mi concentro sulla trama,Da solo,5,8
+2020/12/04 6:15:38 PM CET,1,19 - 25,Avventura,Sera,14,Mi concentro sulla trama,Da solo,1,4
+2020/12/04 6:16:20 PM CET,0,19 - 25,Azione,Sera,3,Mi concentro sulla trama,In Compagnia,2,9
+2020/12/04 6:18:50 PM CET,1,16 - 18,Fantascienza,Sera,6,Mi concentro sulla trama,Da solo,2,8
+2020/12/04 6:32:15 PM CET,2,19 - 25,Romantico,Sera,14,Mi concentro sulla trama,In Compagnia,3,8
+2020/12/04 6:43:05 PM CET,1,19 - 25,Commedia,Sera,11,Mi concentro sulla trama,Da solo,6,5
+2020/12/04 7:13:39 PM CET,0,19 - 25,Anime,Notte,10,Mi concentro sulla trama,Da solo,1,10
+2020/12/04 8:13:16 PM CET,1,19 - 25,Giallo,Sera,0,Mi concentro sulla trama,Da solo,1,1
+2020/12/04 8:24:36 PM CET,1,36 - 50,Musical,Sera,3,Mi concentro sulla trama,Da solo,7,10
+2020/12/04 8:31:13 PM CET,1,19 - 25,Giallo,Sera,0,Mi concentro sulla trama,Da solo,1,1
+2020/12/04 8:51:27 PM CET,1,19 - 25,Commedia,Sera,2,Mi concentro sulla trama,In Compagnia,2,5
+2020/12/04 9:28:14 PM CET,1,19 - 25,Commedia,Sera,0,Mi concentro sulla trama,Da solo,4,2
+2020/12/04 9:45:09 PM CET,1,19 - 25,Romantico,Sera,4,Mi concentro sulla trama,In Compagnia,0,5
+

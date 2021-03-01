@@ -53,3 +53,8 @@ class DAO:
         list_recensioni = []
         for item in DAO.__cursor_instance.fetchall():
             print(item)
+
+    def select_recensore_by_id(email: str):
+        DAO.__cursor_instance.execute("SELECT * FROM utente where email = %s", (email,))
+        return DAO.__cursor_instance.fetchone()
+

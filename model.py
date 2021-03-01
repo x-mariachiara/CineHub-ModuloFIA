@@ -18,15 +18,11 @@ class Film:
         return film_dict
 
 class Utente:
-    def __init__(self, email, nome, congome, dataNascita, username, password, isBannato, isActive):
+    def __init__(self, email, dataNascita, hobby, sesso):
         self.email = email
-        self.nome = nome
-        self.cognome = cognome
         self.dataNascita = dataNascita
-        self.username = username
-        self.password = password
-        self.isBannato = isBannato
-        self.isActive = isActive
+        self.hobby = hobby
+        self.sesso = sesso
 
 class Recensione:
     def __init__(self, createdAt, punteggio, film):

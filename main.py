@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from dao import DAO
 
-from business import getAllFilm
+from business import getAllFilm, getUtenteByID
 
 """
 Una possibile idea:
@@ -38,7 +38,7 @@ def get_consigliati():
 
 @app.route("/ciao", methods=["GET"])
 def get_recensioni():
-    print(DAO.select_recensioni_by_recensore("edrioe@gmail.com"))
+    print(getUtenteByID("andrea@cinehub.it"))
     return "ciao"
 
 if __name__ == "__main__":
