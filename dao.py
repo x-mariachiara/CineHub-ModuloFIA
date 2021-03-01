@@ -25,9 +25,11 @@ class DAO:
         
         self.__dict__['_DAO__cursor_instance'] = DAO.__cursor_instance
 
+    def checkDAO():
+        print("Instanza del cursore:", DAO.__cursor_instance)
 
     def select_all_film() -> list:
         s = "SELECT * FROM film"
-        __cursor_instance.execute(s)
-        list_film = __cursor_instance.fetchall()
+        DAO.__cursor_instance.execute(s)
+        list_film = DAO.__cursor_instance.fetchall()
         return list_film
