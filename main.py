@@ -1,7 +1,8 @@
 from flask import Flask, jsonify, request
 from dao import DAO
+import json
 
-from business import getAllFilm, getUtenteByID
+from business import  Service 
 
 """
 Una possibile idea:
@@ -20,6 +21,8 @@ stesso cluster hanno visto e recensito positivamente. Di quella lista di film ne
 app = Flask(__name__)
 # Inizzializzo connessione al db
 dao = DAO()
+# Inizializzo il service
+service = Service()
 
 # Utilizzo del decoratore che ci consente di raggiungere l'app
 @app.route("/")
@@ -27,14 +30,18 @@ def index():
     return "Le Iene IA"
 
 # Per creare un REST endpoint uso app.route(path, methods=["GET|POST"])
-@app.route("/consigliati", methods=["POST"])
+@app.route("/consigliato", methods=["POST"])
 def get_consigliati():
-    data = request.get_json() # DTO con utente, recensioni dell'utente
-    # metodo di business che interroga il cluster prende i film da consigliare
-    # metodo di business che sceglie il film
+    data = json.dumps(request.get_json())  # DTO con utente, recensioni dell'utente
+    utente = service.jsonToUtente(data)
+    service.addLineToCSV(utente)
+    list_simili = service.getSimilar(utente.email)
 
-    #ritorniamo il film consigliato
-    return jsonify({"films": getAllFilm(dao)})
+    # TODO prendere tutti gli utenti e tramite le loro recensioni prendere i film
+    # valutati meglio
+
+    
+    return "1"
 
 @app.route("/ciao", methods=["GET"])
 def get_recensioni():
