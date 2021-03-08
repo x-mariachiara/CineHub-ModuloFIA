@@ -1,9 +1,11 @@
 import numpy as np                                # For data management
-import pandas as pd                               # For data management
-
+import pandas as pd                           # For data management
+import requests as req
+import json
 import seaborn as sns                             # For data visualization and specifically for pairplot()
 import matplotlib 
 import matplotlib.pyplot as plt                   # For data visualization
+from mpl_toolkits.mplot3d import Axes3D
 
 from sklearn import datasets                      # To import the sample dataset
 from sklearn.preprocessing import StandardScaler, LabelEncoder  # To transform the dataset
@@ -18,20 +20,24 @@ number_of_cluster = 13
 
 
 def prepareDataset():
-    dataset = pd.read_csv("./dataset.csv", engine="python")
+    # dataset = pd.read_csv("./dataset.csv", engine="python")
+    r = req.get("http://localhost:8080/api/utentecontrol/exportData")
+    json_data = json.loads(r.text)
+    dataset = pd.DataFrame(json_data["data"], columns =json_data["feature_names"])
 
-    toRemove = ['time', 'periodo_visione', 'cosa_fare', 'preferenza_visione', 'media_film', 'media_puntate', 'email', 'nome', 'cognome']
 
+    # toRemove = ['time', 'periodo_visione', 'cosa_fare', 'preferenza_visione', 'media_film', 'media_puntate', 'email', 'nome', 'cognome']
+    toRemove = ['idFilmVisti', 'idAttoriPreferiti', 'email']
     dataset = dataset.drop(toRemove, axis=1)
 
     labelEncoder = LabelEncoder()
-    labelEncoder.fit(dataset['genere_preferito'])
-    dataset['genere_preferito'] = labelEncoder.transform(dataset['genere_preferito'])
+    labelEncoder.fit(dataset['generePreferito'])
+    dataset['generePreferito'] = labelEncoder.transform(dataset['generePreferito'])
 
 
     labelEncoder = LabelEncoder()
-    labelEncoder.fit(dataset['età'])
-    dataset['età'] = labelEncoder.transform(dataset['età'])
+    labelEncoder.fit(dataset['fasciaEta'])
+    dataset['fasciaEta'] = labelEncoder.transform(dataset['fasciaEta'])
     return dataset
 
 def generateHeatmap():
@@ -80,6 +86,8 @@ def generateElbowPointGraph(n_cluster = number_of_cluster):
 def generateSilhuetteIndex(n_cluster = number_of_cluster):
     silhuette, elbow = bestKMeans(n_cluster = n_cluster)
     plt.plot(silhuette.values())
+    plt.xlabel("N. Cluster")
+    plt.ylabel("Silhouette")   
     plt.show()
 
 def fitModel(n_cluster = 1):
@@ -89,12 +97,29 @@ def fitModel(n_cluster = 1):
     scaled_dataframe['cluster'] = KMeans_model.labels_
     return KMeans_model, scaled_dataframe
 
-def generateScatterPlot(n_cluster = 1, coppie=[('hobby', 'genere_preferito')]):
+def generateScatterPlot(n_cluster = 1, coppie=[('hobby', 'generePreferito', 'fasciaEta')]):
     model, scaled_dataframe = fitModel(n_cluster)
     #fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize = (16,10))
-    plt.figure(figsize=(15,6))
+    
     for coppia in coppie:
-        sns.scatterplot(x = coppia[0], y = coppia[1],  data = scaled_dataframe, hue = "cluster", palette = "Accent", legend=False)
+        fig = sns.scatterplot(data=scaled_dataframe, x = coppia[0], y = coppia[1],  hue = "cluster", palette = "Accent")
+        plt.show()
+
+
+     # Method 1
+    # ax = fig.add_subplot(111, projection='3d') # Method 2
+    for group in [("hobby", "generePreferito", "fasciaEta"), ("hobby", "generePreferito", "sesso"), ("sesso", "generePreferito", "fasciaEta")]:
+        sns.set_style("whitegrid", {'axes.grid' : False})
+        fig = plt.figure(figsize=(6,6))
+        ax = Axes3D(fig)
+        x = scaled_dataframe[group[0]].tolist()
+        z = scaled_dataframe[group[1]].tolist()
+        y = scaled_dataframe[group[2]].tolist()
+
+        ax.scatter(x, y, z, c=x, marker='o')
+        ax.set_xlabel(group[0])
+        ax.set_ylabel(group[1])
+        ax.set_zlabel(group[2])
         plt.show()
 
 def printCentroidsCoordinates(n_cluster = 1):
@@ -117,7 +142,8 @@ def main():
             numero_cluster = input("Scegli il numero massimo di cluster: ")
             try:
                 generateElbowPointGraph(n_cluster = int(numero_cluster))
-            except ValueError:
+            except ValueError as e:
+                print(e)
                 print('Valori consentiti: 0 - 9')
         elif(int(scelta_utente) == 4):
             numero_cluster = input("Scegli il numero massimo di cluster: ")
@@ -135,18 +161,18 @@ def main():
                     primo_valore_raw = input("inserisci prima etichetta della etichetta {} coppia: ".format(i+1))
                     secondo_valore_raw = input("inserisci seconda etichetta della etichetta {} coppia: ".format(i+1))
                     if int(primo_valore_raw) == 0:
-                        primo_valore = 'età'
+                        primo_valore = 'fasciaEta'
                     elif int(primo_valore_raw) == 1:
-                        primo_valore = 'genere_preferito'
+                        primo_valore = 'generePreferito'
                     elif int(primo_valore_raw) == 2:
                         primo_valore = 'hobby'
                     elif int(primo_valore_raw) == 3:
                         primo_valore = 'sesso'
                     
                     if int(secondo_valore_raw) == 0:
-                        secondo_valore = 'età'
+                        secondo_valore = 'fasciaEta'
                     elif int(secondo_valore_raw) == 1:
-                        secondo_valore = 'genere_preferito'
+                        secondo_valore = 'generePreferito'
                     elif int(secondo_valore_raw) == 2:
                         secondo_valore = 'hobby'
                     elif int(secondo_valore_raw) == 3:

@@ -30,7 +30,7 @@ class DAO:
     def checkDAO():
         print("Instanza del cursore:", DAO.__cursor_instance)
 
-    def select_all_film() -> list:
+    def select_all_film(self) -> list:
         s = "SELECT * FROM film"
         DAO.__cursor_instance.execute(s)
         list_film = []
@@ -39,7 +39,7 @@ class DAO:
         
         return list_film
 
-    def select_all_film() -> list:
+    def select_all_film(self) -> list:
         s = "SELECT * FROM film"
         DAO.__cursor_instance.execute(s)
         list_film = []
@@ -48,19 +48,20 @@ class DAO:
         
         return list_film
 
-    def select_recensioni_by_recensore(recensore_email: str) -> list:
+    def select_recensioni_by_recensore(self, recensore_email: str) -> list:
         DAO.__cursor_instance.execute("SELECT punteggio, film_id FROM recensione where recensore_email = %s", (recensore_email,))
         return DAO.__cursor_instance.fetchall()
 
-    def select_attori_film(film_id: int) -> list:
+    def select_attori_film(self, film_id: int) -> list:
         DAO.__cursor_instance.execute("SELECT cast_id FROM ruolo where media_id = %s", (film_id,))
         return DAO.__cursor_instance.fetchall()
 
-    def select_generi_film(film_id: int) -> list:
+    def select_generi_film(self, film_id: int) -> list:
         DAO.__cursor_instance.execute("SELECT genere_id FROM media_genere where media_id = %s", (film_id,))
         return DAO.__cursor_instance.fetchall()
 
-    def select_recensore_by_id(email: str):
+    def select_recensore_by_id(self, email: str):
         DAO.__cursor_instance.execute("SELECT * FROM utente where email = %s", (email,))
         return DAO.__cursor_instance.fetchone()
+
 

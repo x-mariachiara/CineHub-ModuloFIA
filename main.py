@@ -34,14 +34,12 @@ def index():
 def get_consigliati():
     data = json.dumps(request.get_json())  # DTO con utente, recensioni dell'utente
     utente = service.jsonToUtente(data)
-    service.addLineToCSV(utente)
+    #service.addLineToCSV(utente)
     list_simili = service.getSimilar(utente.email)
-
-    # TODO prendere tutti gli utenti e tramite le loro recensioni prendere i film
-    # valutati meglio
-
+    winner = service.rouletteWheel(list_simili, utente, dao)
+    print("Winner:", winner)
     
-    return "1"
+    return str(winner)
 
 @app.route("/ciao", methods=["GET"])
 def get_recensioni():
