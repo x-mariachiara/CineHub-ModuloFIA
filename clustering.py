@@ -193,4 +193,4 @@ def main():
             print("Errore - Input non valido")
 
 if __name__ == "__main__":
-    main()
+    main()  

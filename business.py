@@ -117,4 +117,4 @@ class Service:
         for index, spicchio in enumerate(ruota):
             print("iterazione: ", index, "\tspicchio tra: ", spicchio.posizioneIniziale, "e: ", (spicchio.posizioneIniziale + spicchio.lunghezza), "\testratto:", randomNumber)
             if spicchio.posizioneIniziale <= randomNumber < (spicchio.posizioneIniziale + spicchio.lunghezza):
-                return spicchio.idFilm
+                return spicchio.idFilm  

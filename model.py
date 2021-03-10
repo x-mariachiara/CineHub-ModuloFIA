@@ -40,4 +40,4 @@ class Spicchio:
     def __init__(self, posizioneIniziale: float, lunghezza: float, idFilm: int):
         self.posizioneIniziale = posizioneIniziale
         self.lunghezza = lunghezza
-        self.idFilm = idFilm
+        self.idFilm = idFilm    
