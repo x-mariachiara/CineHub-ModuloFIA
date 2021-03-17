@@ -81,7 +81,7 @@ class Service:
         base = 5
         if utente.genere_preferito in list_generi:
             base += 5
-        if any(item in list_attori_film for item in utente.id_attori_preferiti):
+        if any(item in list_attori_film for item in utente.id_attori_preferiti[:4]):
             base += 5
         if base == 5:
             base -= 3
